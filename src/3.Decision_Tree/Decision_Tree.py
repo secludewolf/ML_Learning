@@ -48,7 +48,7 @@ def create_date_set():
     return data_set, labels
 
 
-# 2.树构造方法
+# 2.树构造方法(这里信息熵采用香农熵)
 def calculate_shannon_entropy(data_set):
     """
     求当前数据集的香农熵
