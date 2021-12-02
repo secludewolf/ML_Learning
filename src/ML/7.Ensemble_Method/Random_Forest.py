@@ -338,7 +338,7 @@ def evaluate_algorithm(dataset, algorithm, n_folds, *args):
 if __name__ == '__main__':
 
     # 加载数据
-    dataset = loadDataSet('../../data/7.Ensemble_Method/sonar-all-data.txt')
+    dataset = loadDataSet('../../../data/7.Ensemble_Method/sonar-all-data.txt')
     # print dataset
 
     n_folds = 5  # 分成5份数据，进行交叉验证

@@ -256,7 +256,7 @@ def plot_fig_SVM(x_mat, y_mat, ws, b, alphas):
 
 def demo():
     # 获取特征和目标变量
-    dataArr, labelArr = loadDataSet('../../data/6.SVM/testSet.txt')
+    dataArr, labelArr = loadDataSet('../../../data/6.SVM/testSet.txt')
     # print labelArr
 
     # b是常量值， alphas是拉格朗日乘子

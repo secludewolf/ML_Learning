@@ -60,7 +60,7 @@ def standRegres(xArr, yArr):
 
 
 def regression1():
-    xArr, yArr = loadDataSet("../../data/8.Regression/data.txt")
+    xArr, yArr = loadDataSet("../../../data/8.Regression/data.txt")
     xMat = mat(xArr)
     yMat = mat(yArr)
     ws = standRegres(xArr, yArr)
@@ -166,7 +166,7 @@ def lwlrTestPlot(xArr, yArr, k=1.0):
 
 # test for LWLR
 def regression2():
-    xArr, yArr = loadDataSet("../../data/8.Regression/data.txt")
+    xArr, yArr = loadDataSet("../../../data/8.Regression/data.txt")
     yHat = lwlrTest(xArr, xArr, yArr, 0.01)
     xMat = mat(xArr)
     print(yHat)

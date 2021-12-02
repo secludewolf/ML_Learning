@@ -234,7 +234,7 @@ def handwriting_class_test(train_folder_path, test_folder_path):
 
 
 def demo1():
-    filepath = "../../data/2.KNN/datingTestSet2.txt"
+    filepath = "../../../data/2.KNN/datingTestSet2.txt"
     # 加载数据集
     (data_matrix, data_label) = file2matrix(filepath)
     error_percent = dating_class_test(data_matrix, data_label)
@@ -251,8 +251,8 @@ def demo1():
 
 
 def demo2():
-    train_folder_path = "../../data/2.KNN/trainingDigits/"
-    test_folder_path = "../../data/2.KNN/testDigits/"
+    train_folder_path = "../../../data/2.KNN/trainingDigits/"
+    test_folder_path = "../../../data/2.KNN/testDigits/"
     error_percent = handwriting_class_test(train_folder_path, test_folder_path)
     print("错误率:" + str(error_percent) + "%")
 

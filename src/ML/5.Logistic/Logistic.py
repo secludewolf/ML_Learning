@@ -107,7 +107,7 @@ def plot_best_fit(data_set, label_matrix, weights):
 
 
 def demo1():
-    data_matrix, label_matrix = load_data_set_demo1("../../data/5.Logistic/TestSet.txt")
+    data_matrix, label_matrix = load_data_set_demo1("../../../data/5.Logistic/TestSet.txt")
     data_array = array(data_matrix)
     weights = gradient_ascent(data_array, label_matrix)
     plot_best_fit(data_array, label_matrix, weights)
